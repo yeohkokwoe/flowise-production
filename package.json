@@ -6,7 +6,8 @@
     "start": "npx flowise start --disable-telemetry"
   },
   "dependencies": {
-    "flowise": "latest"
+    "flowise": "latest",
+    "sqlite3": "^5.1.7"
   },
   "engines": {
     "node": ">=18 <21"
