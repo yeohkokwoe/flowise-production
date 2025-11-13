@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: flowise
+    env: node
+    plan: free
+    buildCommand: "pnpm install"
+    startCommand: "npx flowise start --disable-telemetry"
+    envVars:
+      - key: FLOWISE_LOG_PATH
+        value: /tmp/flowise/logs
+      - key: FLOWISE_STORAGE_PATH
+        value: /tmp/flowise/storage
+      - key: PORT
+        value: 3000

@@ -1,0 +1,14 @@
+{
+  "name": "flowise-production",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npx flowise start --disable-telemetry"
+  },
+  "dependencies": {
+    "flowise": "latest"
+  },
+  "engines": {
+    "node": ">=18 <21"
+  }
+}
