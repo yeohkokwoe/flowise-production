@@ -11,9 +11,6 @@ importers:
       flowise:
         specifier: latest
         version: 3.0.10(109af95dd4f07d492853c0145497dae9)
-      sqlite3:
-        specifier: ^5.1.7
-        version: 5.1.7
 
 packages:
 

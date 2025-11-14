@@ -6,8 +6,7 @@
     "start": "npx flowise start"
   },
   "dependencies": {
-    "flowise": "latest",
-    "sqlite3": "^5.1.7"
+    "flowise": "latest"
   },
   "engines": {
     "node": ">=18 <21"
