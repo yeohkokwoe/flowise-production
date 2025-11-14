@@ -19817,7 +19817,7 @@ snapshots:
       '@babel/core': 7.28.5
       '@microsoft/fetch-event-source': 2.0.1
       '@ts-stack/markdown': 1.5.0
-      axios: 1.12.0(debug@4.4.3)
+      axios: 1.13.2(debug@4.4.3)
       cors: 2.8.5
       cross-env: 7.0.3
       device-detector-js: 3.0.3
